@@ -8,7 +8,3 @@ package «TestLean» where
 @[default_target]
 lean_lib «TestLean» where
   -- Library configuration options can be added here
-
-@[default_target]
-lean_exe «testlean» where
-  root := `Main
