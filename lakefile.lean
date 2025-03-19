@@ -1,6 +1,8 @@
 import Lake
 open Lake DSL
 
+require REPL from git "https://github.com/leanprover-community/repl.git" @ "master"
+
 package «TestLean» where
   -- Package version
   version := v!"0.1.0"
