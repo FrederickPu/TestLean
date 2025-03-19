@@ -11,4 +11,4 @@ lean_lib «TestLean» where
 
 @[default_target]
 lean_exe «testlean» where
-  root := `Mains
+  root := `Main
